@@ -79,7 +79,7 @@ actionsToolkit.run(
         // enable OIDC
         inputs.driverOpts = [
           ...inputs.driverOpts,
-          'image=jonnystoten2/buildkit:v2',
+          'image=jonnystoten2/buildkit:v3',
           `env.ACTIONS_ID_TOKEN_REQUEST_URL=${process.env.ACTIONS_ID_TOKEN_REQUEST_URL}`,
           `env.ACTIONS_ID_TOKEN_REQUEST_TOKEN=${process.env.ACTIONS_ID_TOKEN_REQUEST_TOKEN}`
         ];
